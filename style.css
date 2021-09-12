@@ -7,7 +7,7 @@ font-face {
    body{
     
     padding:5%;
-    padding-top: 15%;
+    padding-top: 0%;
     background-color: black;
     font-family: "Messapia-Bold", Arial, Helvetica, sans-serif;
     color: white;
@@ -17,11 +17,10 @@ nav{
     margin: 0;
     top: 0;
     right: 0;
-   padding-top: 5%;
+
     z-index: 1;
     height: 17%;
-    background-color: black;
-    width: 100%;
+   width: 100%;
 
 }
 nav ul{
@@ -51,6 +50,14 @@ h2{ font-size: 2em;
 p{
     font-size: 1.2em;
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
 img{
     max-width: 100%;
     object-fit: fill;}
