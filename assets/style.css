@@ -1,15 +1,21 @@
-font-face {
-    font-family: 'Messapia-Bold';
-    src: url('./Messapia-Bold.woff'); /* IE9 Compat Modes */
-    src: url('mywebfont.eot?#iefix') format('woff'), /* IE6-IE8 */
-    url('./Messapia-Bold.woff') format('woff'), /* Modern Browsers */
-   }
+@font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url('Regular/Sporting_Grotesque-Regular_web.eot');
+    src:    url('Regular/Sporting_Grotesque-Regular_web.eot?#iefix') format('embedded-opentype'),
+            url('Regular/Sporting_Grotesque-Regular_web.woff') format('woff'),
+            url('Regular/Sporting_Grotesque-Regular_web.woff2') format('woff2'),
+            url('Regular/Sporting_Grotesque-Regular_web.ttf') format('truetype'),
+            url('Regular/Sporting_Grotesque-Regular_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
    body{
     
     padding:5%;
     padding-top: 20%;
     background-color: black;
-    font-family: "Messapia-Bold", Arial, Helvetica, sans-serif;
+    font-family: 'Sporting Grotesque_Regular', Arial, Helvetica, sans-serif;
     color: white;
 }
 nav{
@@ -92,11 +98,10 @@ figcaption{
     font-size: 9pt;
 }
 .copy{
-    position: relative;
-    bottom: -250px;
+    position: absolute;
+    bottom: 1%;
     z-index: 1;
     font-size: 1em;
-
 }
 
 .render{
